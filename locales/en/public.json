@@ -39,8 +39,9 @@
     "connection": "Connection",
     "delete": "Delete",
     "delete_service_registry_title": "Delete Service Registry instance",
-    "delete_service_registry_description": "<b>{{name}}</b> will be deleted.",
+    "delete_service_registry_description": "The <b>{{name}}</b> Service Registry instance and all artifacts will be deleted. Applications will no longer have access to the artifacts in this instance.",
     "service_registry_name_label": "Type <b>{{name}}</b> to confirm:",
+    "delete_service_registry_download_zip": "To save your data for future use, we recommend downloading a zip file of all the artifacts.",
     "creation_pending": "Creation pending",
     "ready": "Ready",
     "complete": "Ready",
@@ -73,7 +74,8 @@
     "standard_service_registry_creation_failed_alert_message": "Your organization reached the limit of Service Registry instances available for creation.",
     "trial_service_registry_creation_failed_alert_message": "Service Registry instances are no longer available. Try again in a few hours.",
     "deploy_one_instance_alert_message": "You can deploy 1 instance at a time. To deploy a new instance, delete your existing one first.",
-    "trial_quota_service_registry_title": "Your instance will expire after 2 months."
+    "trial_quota_service_registry_title": "Your instance will expire after 2 months.",
+    "download_artifacts": "Download artifacts (.zip)"
   },
   "srs": {
     "service_registry": "Service Registry",
@@ -81,7 +83,7 @@
     "view_connection_information": "Connection",
     "delete_registry": "Delete",
     "empty_state_registry_title": "No Service Registry instances yet",
-    "empty_state_registry_description": "To get started, create a Service Registry instance.",
+    "empty_state_registry_description": "For help getting started, access the <0>quick start guide.<0>",
     "create_service_registry": "Create Service Registry instance",
     "unauthorized_empty_state_title": "Access entitlements needed",
     "unauthorized_empty_state_body": "To set up a Service Registry, your account needs the appropriate access entitlements",
@@ -106,7 +108,7 @@
     "registry_success_message": "The creation of the <b>{{name}}</b> Service Registry instance is ready for you.",
     "registry_not_created": "Service Registry instance creation failed",
     "registry_failed_message": "The creation of the <b>{{name}}</b> Service Registry instance is failed",
-    "oauth_description": "Use your service account credentials and a token endpoint URL to authenticate your client with the Service Registry instance.",
+    "oauth_description": "Use your service account credentials and a token endpoint URL to authenticate your client with the Service Registry instance. Your application authenticates with your service account credentials.",
     "token_endpoint_url": "Token endpoint URL",
     "http_basic": "HTTP Basic",
     "http_basic_description": " Use your service account credentials (Client ID and Client secret) as the user name and password to authenticate your client with the Service Registry instance.",
@@ -121,6 +123,11 @@
     "empty_state_title": "No Service Registry instances",
     "empty_state_body": "To register a schema for this topic, create a Service Registry instance and use the following naming format for the artifact ID:",
     "schema_loading": "Looking for a matching schema…",
-    "go_to_service_registry_instance_helper_text": "Go to Service Registry instance"
+    "go_to_service_registry_instance_helper_text": "Go to Service Registry instance",
+    "create_service_account": "Create service account",
+    "create_service_account_to_generate_credentials": "Create a service account to generate credentials. Manage the service accounts you create on the",
+    "service_accounts": "Service Accounts",
+    "service_accounts_small": "Service accounts",
+    "current_instance": "Accounts do not have access to this instance unless granted under the instance’s <0>Access tab</0>. The instance owner, the instance administrator, or the organization administrator can manage access."
   }
 }
